@@ -34,6 +34,28 @@ body
     padding: 40px;
 
 }
+.button 
+{
+    transition-duration: 0.4s;
+    width: fit-content;
+    border-radius: 8px;
+  }
+  
+  .button:hover {
+    background-color: #2a7da2;
+    color: white;
+  }
+
+.button span
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 0.6em;
+    font-weight: 300;
+
+}
 .profileText
 {
     position: relative;
@@ -111,6 +133,11 @@ body
 {   
     color: #fff;
     font-weight: 300;
+}
+.contactInfo ul li span span
+{
+    position: relative;
+    
 }
 .contactInfo.education li
 {
@@ -190,7 +217,7 @@ p
 .about .box .year_company h5
 {
     text-transform: uppercase;
-    color: #848c90;
+    color: #7c94a0;
     margin-bottom: 5px;
     font-weight: 600;
 }
